@@ -1,0 +1,124 @@
+/*root*/
+* {box-sizing: border-box;}
+
+/* */
+.KeyFeatureBox{
+margin-top: 50px; /*setting the margin top to have space between key feature and About Description*/
+display:grid;
+grid-gap:20px;
+
+}
+
+/* Cards section in the Key Features of the school*/
+.KeyFea_card_desc_text{
+	word-wrap: break-word;
+	height:300px;
+	text-align: left;
+	font:verdana;
+	font-size: 18px;
+}
+
+.theteambox{
+margin-top: 50px; /*setting the margin top to have space between this and above section*/
+}
+
+/* Slides in the view our proram section*/
+.mySlides{
+display:none;
+}
+
+/*card to be displayed as table */
+.cardtoptable{
+	display:table;
+	width:100%;
+}
+
+/*card colum to be displayed as table cell */
+.cardinneritems{
+	display:table-cell;
+	
+}
+
+/* initially making the Keyboard tab to be hidden */
+
+.keyboardfeatures {display:none}
+
+
+/* initially making the Keyboard tab to be hidden */
+
+.guitarfeatures {display:none}
+
+
+/* initially making the Keyboard tab to be hidden */
+
+.drumfeatures {display:none}
+
+/* initially making the Keyboard tab to be hidden */
+
+.violinfeatures {display:none}
+
+
+/*main logo*/
+
+#mainlogo
+{
+width:200px;
+height:82px;
+}
+
+/* Fee table */
+.feewrapper{
+display:grid;
+grid-template-columns : repeat(5,1fr);
+grid-auto-rows : 100px;
+grid-row-gap:2px;
+grid-column-gap:5px;
+
+}
+
+.feesingle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	background-color:rgb(100,100,100);
+	color :black;
+	font-size:18px;
+}
+
+.feesingle.feekeyboard{
+	background-color:rgb(182,216,242);
+}
+
+.feesingle.feeguitar{
+	background-color:rgb(127,191,240);
+}
+
+.feesingle.feedrums{
+	background-color:rgb(71,169,245);
+}
+
+.feesingle.feeviolin{
+	background-color:rgb(22,148,245);
+}
+
+
+#topmenulink {
+a:hover{
+background-color:green;
+}
+}
+
+@media (min-width: 320px) and (max-width: 400px) {
+  
+  background-color:red;
+  
+}
+
+
+
+
+
+
+
+
+
